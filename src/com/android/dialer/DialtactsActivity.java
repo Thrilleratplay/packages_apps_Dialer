@@ -546,6 +546,8 @@ public class DialtactsActivity extends TransactionSafeActivity implements View.O
             mListsFragment.showTab(ListsFragment.TAB_INDEX_RECENTS);
         }
 
+        showDialpadFragment(false);
+
         Trace.endSection();
     }
 
